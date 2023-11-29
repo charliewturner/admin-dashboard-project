@@ -2,6 +2,7 @@
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .sidebar {
@@ -66,6 +67,16 @@
     margin: 20px;
 }
 
+.project{
+    display: grid;
+    border-radius: 8px;
+    grid-template-columns: 10px 1fr;
+}
+
+.color-edge{
+    background-color: darkgoldenrod;
+    
+}
 .right-tab {
     display: grid;
     grid-template-rows: 4fr 1fr 4fr;
