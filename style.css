@@ -8,8 +8,25 @@
     display: grid;
     grid-column: 1/2;
     grid-row: 1/3;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 10fr;
+}
+
+.dashboard{
+    grid-column: 1/3;
+}
+.icons {
+    display: grid;
     gap: 8px;
     grid-template-rows: repeat(1, 1.5fr) repeat(5, 1fr) repeat(1, 2fr) repeat(2, 1fr) repeat(1, 8fr);
+
+}
+
+.siderbar-links {
+    display: grid;
+    gap: 8px;
+    grid-template-rows: repeat(1, 1.5fr) repeat(5, 1fr) repeat(1, 2fr) repeat(2, 1fr) repeat(1, 8fr);
+
 }
 
 .container {
@@ -48,7 +65,7 @@
     margin: 20px;
 }
 
-.right-tab{
+.right-tab {
     display: grid;
     grid-template-rows: 4fr 1fr 4fr;
 }
